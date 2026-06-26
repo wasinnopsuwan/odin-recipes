@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+.header {
+  text-align: center;
+}
+
+.menu-list {
+  width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+.menu a {
+  display: block;
+  padding: 8px;
+  color: rgb(38, 38, 38);
+}
+
+.menu a:hover {
+  color: white;
+  background-color: black;
+}
+
+.header-main-image {
+  display: block;
+  width: 500px;
+  margin: 2em auto;
+  border-radius: 5px;
+}

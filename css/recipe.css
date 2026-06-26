@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+h1,
+.menu-img-src {
+  text-align: center;
+}
+
+.menu-img-src {
+  font-size: 12px;
+}
+
+.menu-img {
+  width: 500px;
+  margin: 1em auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.main-container {
+  width: 800px;
+  margin: 0 auto;
+}
